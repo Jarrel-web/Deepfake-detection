@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",                // Target ECMAScript version
+      "module": "CommonJS",              // Module system for Node.js
+      "moduleResolution": "node",        // Module resolution for Node
+      "esModuleInterop": true,           // Allow importing CommonJS modules like ES Modules
+      "skipLibCheck": true,              // Skip type checking of declaration files
+      "strict": true,                    // Enable strict type-checking options
+      "outDir": "./dist",                // Output folder for compiled JS files
+      "resolveJsonModule": true,         // Allow importing JSON modules
+      "allowJs": true                    // Allow JavaScript files to be compiled
+    },
+    "include": [
+      "backend/**/*.ts"                  // Include all .ts files in the backend folder
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
