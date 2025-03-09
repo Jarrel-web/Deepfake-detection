@@ -7,6 +7,7 @@
     "server": "tsx backend/server.ts",
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:full": "npm run build && npm run server",
     "lint": "eslint .",
     "preview": "vite preview"
   },
